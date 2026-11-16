@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: clipador-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
